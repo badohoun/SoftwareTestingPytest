@@ -19,8 +19,7 @@ nh3==0.2.15
 nodeenv==1.8.0
 numpy==1.26.3
 packaging==23.2
--e git+https://github.com/badohoun/SoftwareTestingPytest@8196673b2d8b8d7fa991f955fd4aa676d95c1ed3#egg=packaging_demo_espoir
-pandas==2.1.4
+-e git+https://github.com/badohoun/SoftwareTestingPytest@d24cbba5fbab936f9e9220de8eeb7435c4ab07b9#egg=packaging_demo_espoir
 pkginfo==1.9.6
 platformdirs==4.1.0
 pluggy==1.3.0
@@ -29,17 +28,13 @@ Pygments==2.17.2
 pyproject_hooks==1.0.0
 pytest==7.4.4
 pytest-cov==4.1.0
-python-dateutil==2.8.2
-pytz==2023.3.post1
 PyYAML==6.0.1
 readme-renderer==42.0
 requests==2.31.0
 requests-toolbelt==1.0.0
 rfc3986==2.0.0
 rich==13.7.0
-six==1.16.0
 twine==4.0.2
-tzdata==2023.4
 urllib3==2.1.0
 virtualenv==20.25.0
 zipp==3.17.0
