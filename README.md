@@ -147,3 +147,35 @@ pass artifacts (upload and downloads) between jobs : github.com/actions/download
 
 
 # Software Testing and sample 
+
+pytest tests/  
+
+blackbox tests money in vendors machines  
+glassbox tests 
+
+bridle tests : everything your chznge code your change your tests 
+
+Parameters test and testcaseuniverse : everytests you want to test (all combinaisons)
+
+every tests should test one behaviour
+
+Blackbox vs glassbox
+
+Your users  really don't care about your implementation  (too slow , too buggy or insecure)
+but your users care about is that your code had the behaviour that they expected (test automatic check the behaviour or core behaviuor of your codebase are still inatact  )
+
+ for example if the product is library  is the Minimum all you functions , class you're exposing (public api) are awork as expected 
+ More granular unit tests for private mlodule in you're code  as important test your functionnalities 
+
+
+ 
+quick report : each  which lines are executes 
+testcoverage is the percetange of lines of your program this actually gonna be execute 
+how you're generate this report : coverage.py (pytest-cov)  pip install pytest-cov  pytest --help  
+how much the code is covered by the tests : the core idea 
+
+best practices
+
+Run slow test in ci/cd in night and rapid (if bug fixes thoses  in journey)
+Run rapid or fast tests in journey on evry commit 
+python -m http.server -d  ./htmlcov   : to see your report in a website (locally) after run ./run.sh test 
